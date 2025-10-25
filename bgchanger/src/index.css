@@ -63,10 +63,6 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    /* leave button background to utility classes (e.g. bg-red-500) */
-  }
 }
 
-/* Ensure Tailwind utilities are loaded last so utility classes win over these global rules */
-@tailwind utilities;
+
