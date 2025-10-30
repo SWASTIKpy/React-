@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Small global safeguard: ensure images don't overflow their containers */
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Optional: set a sensible body background and font smoothing */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
